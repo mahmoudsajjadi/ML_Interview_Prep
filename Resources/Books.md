@@ -18,6 +18,14 @@ This PDF provides solutions to the questions found in the **Introduction to Mach
 
 **Download the solution PDF:** [ML Interview Book Solutions](https://github.com/hamna-moieez/ml-interviews-book-solutions/blob/main/ml-interviews-book-solution-v1.pdf)
 
+
+---
+
+## References:
+- **Introduction to Machine Learning Interviews Book** by [Chip Huyen](https://huyenchip.com/ml-interviews-book/)
+- **Solutions to Machine Learning Interviews Book** by [Hamna Moieez](https://github.com/hamna-moieez)  
+  - PDF file provided by Hamna Moieez from the repository [ml-interviews-book-solutions](https://github.com/hamna-moieez/ml-interviews-book-solutions).
+
 ---
 
 **Note:** The book and the solution PDF are excellent resources for those preparing for machine learning interviews, especially for tackling both theoretical and practical questions.
