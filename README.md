@@ -15,6 +15,7 @@ Welcome to **ML Interview Prep**! This repository is designed to help you prepar
 ### Topics
 - [Supervised Learning](Topics/Supervised_Learning.md)
 - [Unsupervised Learning](Topics/Unsupervised_Learning.md)
+- [Supervised vs. Unsupervised Learning](Topics/Supervised_vs_Unsupervised.md)
 - [Reinforcement Learning](Topics/Reinforcement_Learning.md)
 - [Deep Learning](Topics/Deep_Learning.md)
 - [Feature Engineering](Topics/Feature_Engineering.md)
