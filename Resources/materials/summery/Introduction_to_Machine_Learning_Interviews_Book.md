@@ -1,6 +1,6 @@
 # Summary: 4.1 How long do I need for my job search?
 
-## Overview
+#### Overview
 The job search process for machine learning roles is long, stressful, and varies by location. This summary provides a practical timeline and resources to prepare effectively.
 
 ---
