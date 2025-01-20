@@ -1,6 +1,6 @@
 # Summary: 4.1 How long do I need for my job search?
 
-#### Overview
+## Overview
 The job search process for machine learning roles is long, stressful, and varies by location. This summary provides a practical timeline and resources to prepare effectively.
 
 ---
@@ -162,4 +162,22 @@ The most effective way to become an ML engineer is to focus on hands-on learning
 
 ---
 
+# Part II: Questions
+
+This section features over 200 deterministic questions designed to test your understanding of machine learning concepts. These questions help interviewers evaluate your knowledge and thought process. The questions are categorized into three difficulty levels:  
+- **[E]asy:** Fundamental concepts everyone should know.  
+- **[M]edium:** Concepts requiring a deeper understanding beyond definitions.  
+- **[H]ard:** Advanced topics that demonstrate practical experience.  
+
+### Key Highlights:
+- **Purpose:** The questions focus on understanding "why" something matters and "how" it works rather than rote memorization or solving equations.  
+- **Types of Questions:** Some "bad" interview questions (e.g., definitions) are included for practice, as they reinforce the importance of certain concepts.  
+- **Strategy for Definitions:** Always start with the motivation behind the concept. For example, when explaining LSTMs, begin by discussing the limitations of standard RNNs and how LSTMs address them.  
+- **Interviewer Approach:** In a typical hour-long interview, 10-15 of these questions might be covered.  
+
+### Additional Tips:
+- Understand the foundational challenges in machine learning, as they persist regardless of evolving techniques.  
+- Focus on "why" questions to demonstrate a deeper grasp of concepts.  
+
 [Back to Main Page](https://github.com/mahmoudsajjadi/ML_Interview_Prep)
+
