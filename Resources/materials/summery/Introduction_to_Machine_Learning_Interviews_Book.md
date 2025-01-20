@@ -6,6 +6,7 @@ The job search process for machine learning roles is long, stressful, and varies
 ---
 
 ### **Recommended Timeline**
+
 1. **Start Early:**  
    - Begin your search **3–6 months** before your target start date.  
    - Students: Start at the beginning of your final year.  
@@ -22,14 +23,14 @@ The job search process for machine learning roles is long, stressful, and varies
    - Take 2–3 courses:  
      - Hands-on: [Fast.ai's Practical Deep Learning for Coders](https://course.fast.ai/).  
      - Theoretical: [Coursera's Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning).  
-     - Practical: [Machine Learning Systems Design by Chip Huyen](https://stanford-cs329s.github.io/).  
+     - Practical: [CS329S: Machine Learning Systems Design (Stanford)](https://stanford-cs329s.github.io/).  
    - Read 2–3 books:  
      - [Deep Learning by Ian Goodfellow](https://www.deeplearningbook.org/).  
-     - [Machine Learning: A Probabilistic Perspective by Kevin P. Murphy](https://mitpress.mit.edu/9780262047703/).  
+     - [Machine Learning: A Probabilistic Perspective by Kevin P. Murphy](https://probml.github.io/pml-book/).  
 
 4. **One Week Before:**  
    - Review notes from:  
-     - [CS231N: Convolutional Neural Networks](http://cs231n.stanford.edu/).  
+     - [CS231N: Convolutional Neural Networks for Visual Recognition](https://cs231n.stanford.edu/).  
      - [Full Stack Deep Learning Lectures](https://fullstackdeeplearning.com/).  
    - Skim through **Part 2 and 3** of the book.  
    - Revisit your project details for potential interview discussions.
@@ -42,6 +43,7 @@ The job search process for machine learning roles is long, stressful, and varies
 ---
 
 ### Key Insights
+
 - **Consistency Wins:**  
   Becoming a machine learning expert requires years, not months.  
   Refer to Peter Norvig's [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html).  
@@ -55,6 +57,10 @@ The job search process for machine learning roles is long, stressful, and varies
 - **[Introduction to Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/)**  
 - **[Fast.ai's Practical Deep Learning for Coders](https://course.fast.ai/)**  
 - **[Coursera's Machine Learning Course](https://www.coursera.org/learn/machine-learning)**  
-- [Full Stack Deep Learning Lectures](https://fullstackdeeplearning.com/)  
+- **[CS329S: Machine Learning Systems Design (Stanford)](https://stanford-cs329s.github.io/)**  
+- **[Deep Learning by Ian Goodfellow](https://www.deeplearningbook.org/)**  
+- **[Machine Learning: A Probabilistic Perspective by Kevin P. Murphy](https://probml.github.io/pml-book/)**  
+- **[CS231N: Convolutional Neural Networks for Visual Recognition](https://cs231n.stanford.edu/)**  
+- **[Full Stack Deep Learning Lectures](https://fullstackdeeplearning.com/)**  
 
 [Back to Main Page](https://github.com/mahmoudsajjadi/ML_Interview_Prep)
