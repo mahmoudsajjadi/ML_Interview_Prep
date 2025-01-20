@@ -114,9 +114,9 @@ The most effective way to become an ML engineer is to focus on hands-on learning
   - Conferences are better for networking and career exposure than for building technical skills.  
   - Publishing research at conferences enhances credibility and visibility.
 
-[Back to Main Page](https://github.com/mahmoudsajjadi/ML_Interview_Prep)
-
-
-
+### Additional Resources
+- [Top 10 Courses for ML Engineers](https://huyenchip.com/ml-interviews-book/contents/4.3.1-courses.html)  
+- [Books & Articles for Deeper Insights](https://huyenchip.com/ml-interviews-book/contents/4.3.2-books-&-articles.html)  
+- [Other Useful Resources](https://huyenchip.com/ml-interviews-book/contents/4.3.3-other-resources.html)
 
 [Back to Main Page](https://github.com/mahmoudsajjadi/ML_Interview_Prep)
