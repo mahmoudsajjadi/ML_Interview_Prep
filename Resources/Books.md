@@ -11,6 +11,11 @@ The book is divided into two parts:
 
 **Link to the book:** [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
 
+
+***[Summary: 4.1 How long do I need for my job search?](link-to-summary-page)***  
+A practical breakdown of the timeline and resources for ML job preparation, including courses, books, and strategies.
+
+
 ---
 
 ## 2. [Solutions to Machine Learning Interviews Book](https://github.com/hamna-moieez/ml-interviews-book-solutions/blob/main/ml-interviews-book-solution-v1.pdf)
