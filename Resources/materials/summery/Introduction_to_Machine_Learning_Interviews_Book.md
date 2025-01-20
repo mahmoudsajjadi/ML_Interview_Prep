@@ -63,4 +63,38 @@ The job search process for machine learning roles is long, stressful, and varies
 - **[CS231N: Convolutional Neural Networks for Visual Recognition](https://cs231n.stanford.edu/)**  
 - **[Full Stack Deep Learning Lectures](https://fullstackdeeplearning.com/)**  
 
+
+# Summary: 4.2 How Other People Did It
+
+## Overview
+Learning from the career paths of others can provide valuable insights and inspiration. There is no single route to a career in machine learning (ML). People with unconventional backgrounds often bring unique perspectives and are highly sought after. This section highlights a few inspiring stories of individuals who carved their own paths into ML roles.
+
+---
+
+### **Key Stories**
+
+1. **Shifting Careers to Autonomous Vehicles**  
+   Vladimir Iglovikov, a Senior Computer Vision Engineer at Lyft, transitioned from debt collection to self-driving cars. He shared his challenges, including rejection from Google and NVIDIA, and the rescinding of a Tesla offer due to an NDA violation. His story reflects the immigration frustrations many face when seeking opportunities abroad.
+
+2. **A Focused Study Plan for Google Interviews**  
+   John Washam dedicated 8 months to full-time study for a Google interview. Despite being rejected by Google, his persistence led to an offer from Amazon, demonstrating resilience and adaptability.
+
+3. **Strategic Job Search After Layoff**  
+   Emma Ding analyzed data science job listings and categorized them into three roles: Product Analytics, Modeling, and Data Engineering. She targeted Product Analytics, enhanced her resume, and prepared intensively. Within two months, she received 10 interviews, 4 onsite interviews, and 4 job offers from companies including Twitter, Lyft, and Airbnb.
+
+4. **Self-Taught Machine Learning Researcher**  
+   Emil Wallner, a resident at Google Arts & Culture, taught himself ML. His recommended learning path:  
+   - Learn coding fundamentals.  
+   - Spend 1–2 months completing [Fast.ai's course](https://course.fast.ai/).  
+   - Dedicate 4–5 months to personal projects or ML competitions.
+
+---
+
+### Insights
+- **Diverse Backgrounds Add Value:** Candidates from unconventional paths often bring innovative ideas and perspectives.
+- **Perseverance Pays Off:** Setbacks and rejections are part of the journey but can lead to growth and success.  
+- **Focused Preparation:** A strategic approach to skills development and job targeting can yield significant results.
+
+
+
 [Back to Main Page](https://github.com/mahmoudsajjadi/ML_Interview_Prep)
