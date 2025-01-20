@@ -162,8 +162,9 @@ The most effective way to become an ML engineer is to focus on hands-on learning
 
 
 ===========================================================================
+
                              **Part II: Questions**
-===========================================================================
+
 
 This section features over 200 deterministic questions designed to test your understanding of machine learning concepts. These questions help interviewers evaluate your knowledge and thought process. The questions are categorized into three difficulty levels:  
 - **[E]asy:** Fundamental concepts everyone should know.  
