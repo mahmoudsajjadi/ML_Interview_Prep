@@ -119,4 +119,47 @@ The most effective way to become an ML engineer is to focus on hands-on learning
 - [Books & Articles for Deeper Insights](https://huyenchip.com/ml-interviews-book/contents/4.3.2-books-&-articles.html)  
 - [Other Useful Resources](https://huyenchip.com/ml-interviews-book/contents/4.3.3-other-resources.html)
 
+# 4.4 Do’s and Don’ts for ML Interviews
+
+## Do’s
+- **Start Early:** Begin preparing long before you start job hunting.
+- **Get Referrals:** Use your network to secure referrals; it helps get your resume noticed.
+- **Leverage Your Network:** Inform your connections about your job search and opportunities.
+- **Collaborate:** Join a group of peers to share interview tips and industry trends.
+- **Mock Interviews:** Practice with friends using technical and non-technical questions.
+- **Contribute to Open Source:** Publish your code on GitHub to strengthen your profile.
+- **Update Your LinkedIn:** Keep your profile current and professional.
+- **Stay Current:** Learn new technologies, read books, and take courses.
+- **Write Blog Posts:** Share your expertise through detailed technical posts.
+- **Kaggle Competitions:** Join competitions and analyze winning strategies for practical insights.
+- **Engage on StackOverflow:** Ask and answer questions to learn and showcase expertise.
+- **Research Companies:** Use Glassdoor to read reviews and prepare for company culture.
+- **Review Your Resume:** Be ready to discuss any project listed in detail.
+- **Warm-Up Exercises:** Solve coding problems before interviews to get into problem-solving mode.
+- **Understand Interviewers:** If possible, research your interviewers' expertise areas.
+- **Be Honest:** Don’t claim knowledge of things you’re not confident in.
+- **Think Out Loud:** Explain your thought process during problem-solving.
+- **Ask Questions:** Show interest in the role and evaluate if the company suits you.
+- **Accept Feedback:** Listen and adapt during the interview.
+- **Practice Frequently:** Interview regularly to stay sharp and improve.
+- **Have Competing Offers:** Strengthen your negotiation position.
+- **Stay Positive:** Treat rejections as learning opportunities.
+- **Follow Up:** Thank interviewers and request feedback.
+
+---
+
+## Don’ts
+- **Don’t Fake It:** Avoid pretending to know something or giving vague answers.
+- **Don’t Use Clichés:** Personalize your responses to reflect your journey and goals.
+- **Don’t Dodge Questions:** Address the interviewer’s queries directly without changing the subject.
+- **Don’t Criticize:** Avoid negative remarks about past employers or colleagues.
+- **Don’t Be Intimidated:** Stay confident and engage respectfully, even if the interviewer is challenging.
+- **Don’t Judge:** Treat all interviewers with respect, regardless of their seniority.
+- **Avoid Personal Topics:** Steer clear of age, religion, politics, or marital status discussions.
+- **Don’t Discuss Salary Prematurely:** Reserve salary discussions for negotiations with recruiters.
+- **Don’t Misinterpret Questions:** Easy questions may indicate a lower-level position, while difficult ones test your capabilities.
+- **Don’t Dwell on Failures:** Move on and apply to other companies or revisit your dream company later.
+
+---
+
 [Back to Main Page](https://github.com/mahmoudsajjadi/ML_Interview_Prep)
