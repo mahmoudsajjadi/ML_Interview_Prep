@@ -181,5 +181,53 @@ This section features over 200 deterministic questions designed to test your und
 - Understand the foundational challenges in machine learning, as they persist regardless of evolving techniques.  
 - Focus on "why" questions to demonstrate a deeper grasp of concepts.  
 
+
+===========================================================================
+                            **Chapter 5: Math**
+===========================================================================
+
+If you're primarily running pre-existing ML code (like `keras.fit`) without developing new models, this chapter may not be necessary for you. However, a solid understanding of math will greatly enhance your ability to:
+
+- Evaluate trade-offs between different algorithms.
+- Debug your models and fix issues during training.
+- Make performance or efficiency improvements.
+- Explain your model’s performance.
+- Develop new models from scratch.
+
+### Key Mathematical Areas in ML:
+- **Algebra**
+- **Probability and Statistics**
+- **Dimensionality Reduction**
+- **Calculus** (minimal) and **Convex Optimization**
+
+Note: This section doesn’t cover all possible math areas in ML, such as **graph theory, logic**, or **topology**.
+
+### Notation:
+- All vectors are column vectors.
+- Superscripts denote the sample index; the element is denoted by the subscript.
+- For matrices, the first row is denoted by a subscript.
+
+### Topics in Chapter 5:
+
+#### Vectors
+- **Dot Product:**
+  - Geometric interpretation of the dot product of two vectors.
+  - Find a unit vector such that its dot product with another vector is maximized.
+- **Outer Product:**
+  - Definition and calculation of the outer product.
+  - How the outer product can be useful in ML.
+- **Linear Independence:**
+  - What it means for vectors to be linearly independent.
+- **Norms and Metrics:**
+  - What is a norm and how it differs from a metric.
+  - How to make a metric from a norm.
+
+### Example Questions:
+- **[E]** What’s the geometric interpretation of the dot product of two vectors?
+- **[M]** How do norms and metrics differ, and how do you create one from the other?
+
+This chapter introduces fundamental math concepts that will aid in solving practical machine learning problems.
+
+
 [Back to Main Page](https://github.com/mahmoudsajjadi/ML_Interview_Prep)
 
