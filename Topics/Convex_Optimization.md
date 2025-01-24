@@ -4,6 +4,8 @@
 
 ### Lines and Line Segments
 - A line passing through two distinct points \(x_1\) and \(x_2\) in \(R^n\): \(y = \theta x_1 + (1 - \theta)x_2\), where \(\theta \in R\).
+- A line passing through two distinct points \( x_1 \) and \( x_2 \) in \( \mathbb{R}^n \): \[ y = \theta x_1 + (1 - \theta)x_2, \; \text{where} \; \theta \in \mathbb{R}. \]
+
 - Line segment between \(x_1\) and \(x_2\) defined when \(0 \leq \theta \leq 1\).
 
 ### Affine Sets
