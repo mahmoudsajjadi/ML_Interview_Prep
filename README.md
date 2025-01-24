@@ -19,6 +19,7 @@ Welcome to **ML Interview Prep**! This repository is designed to help you prepar
 - [Reinforcement Learning](Topics/Reinforcement_Learning.md)
 - [Deep Learning](Topics/Deep_Learning.md)
 - [Feature Engineering](Topics/Feature_Engineering.md)
+- [Convex Optimization](Topics/Convex_Optimization.md)
 
 ### Coding
 - [Python Basics](Coding/Python_Basics.md)
