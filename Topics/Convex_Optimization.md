@@ -28,8 +28,17 @@
 - **Sums**: The sum of convex sets is convex.
 
 #### Affine Functions: Image and Inverse Image
-An affine function is a linear function plus a constant. It can be represented as: **\( f(x) = Ax + b \)**, where *A* is a matrix, *x* is a vector, and *b* is a constant vector.
+- An affine function is a linear function plus a constant. It can be represented as: **\( f(x) = Ax + b \)**, where *A* is a matrix, *x* is a vector, and *b* is a constant vector.
 ##### Image of a Set Under an Affine Function
+- Given a function *f* and a set *C*, the **image** of *C* under *f* is the set of all outputs when *f* is applied to every element in *C*: **\( f(C) = \{ f(x) \mid x \in C \} \)**
+#### Inverse Image of a Set Under an Affine Function
+- Given a function *f* and a set *C*, the **inverse image** of *C* under *f* is the set of all inputs that get mapped to elements in *C*: **\( f^{-1}(C) = \{ x \mid f(x) \in C \} \)**
+- Note that the inverse image does not require the function to be invertible.
+#### Preservation of Convexity
+Both images and inverse images of convex sets are preserved under affine functions. This means:  
+- If \( C \) is convex, then \( f(C) \) is also convex.  
+- If \( C \) is convex, then \( f^{-1}(C) \) is also convex.
+
 
 
 
