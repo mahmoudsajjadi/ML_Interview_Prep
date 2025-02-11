@@ -37,7 +37,7 @@
 #### Preservation of Convexity
 Both images and inverse images of convex sets are preserved under affine functions. This means:  
 - If \( C \) is convex, then \( f(C) \) is also convex.  
-- If \( C \) is convex, then \( f^{-1}(C) \) is also convex.
+- If \( C \) is convex, then $$f^{-1}(C)$$ is also convex.
 
 
 
