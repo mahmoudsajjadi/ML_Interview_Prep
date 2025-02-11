@@ -27,6 +27,7 @@
 - **Affine Functions**: Convex sets remain convex under affine transformations.  
 - **Sums**: The sum of convex sets is convex.
 
+
 ## Applications
 - Optimization problems in machine learning (e.g., linear programming, SVM).  
 - Geometric interpretations in data science.  
