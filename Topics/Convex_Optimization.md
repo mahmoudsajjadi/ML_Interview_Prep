@@ -32,7 +32,7 @@
 ##### Image of a Set Under an Affine Function
 - Given a function *f* and a set *C*, the **image** of *C* under *f* is the set of all outputs when *f* is applied to every element in *C*: $$f(C) = \lbrace f(x) \mid x \in C \rbrace$$
 #### Inverse Image of a Set Under an Affine Function
-- Given a function *f* and a set *C*, the **inverse image** of *C* under *f* is the set of all inputs that get mapped to elements in *C*: **\( f^{-1}(C) = \{ x \mid f(x) \in C \} \)**
+- Given a function *f* and a set *C*, the **inverse image** of *C* under *f* is the set of all inputs that get mapped to elements in *C*: $$f^{-1}(C) = \lbrace x \mid f(x) \in C \rbrace$$
 - Note that the inverse image does not require the function to be invertible.
 #### Preservation of Convexity
 Both images and inverse images of convex sets are preserved under affine functions. This means:  
