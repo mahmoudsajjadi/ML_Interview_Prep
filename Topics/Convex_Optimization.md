@@ -27,6 +27,11 @@
 - **Affine Functions**: Convex sets remain convex under affine transformations.  
 - **Sums**: The sum of convex sets is convex.
 
+#### Affine Functions: Image and Inverse Image
+An affine function is a linear function plus a constant. It can be represented as: **\( f(x) = Ax + b \)**
+
+
+
 
 ## Applications
 - Optimization problems in machine learning (e.g., linear programming, SVM).  
