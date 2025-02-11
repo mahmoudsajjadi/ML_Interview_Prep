@@ -28,8 +28,8 @@
 - **Sums**: The sum of convex sets is convex.
 
 #### Affine Functions: Image and Inverse Image
-An affine function is a linear function plus a constant. It can be represented as: **\( f(x) = Ax + b \)**
-
+An affine function is a linear function plus a constant. It can be represented as: **\( f(x) = Ax + b \)**, where *A* is a matrix, *x* is a vector, and *b* is a constant vector.
+##### Image of a Set Under an Affine Function
 
 
 
