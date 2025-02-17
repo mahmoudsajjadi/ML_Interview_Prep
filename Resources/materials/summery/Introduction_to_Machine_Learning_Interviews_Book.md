@@ -285,6 +285,12 @@ This chapter introduces fundamental math concepts that will aid in solving pract
 
 #### Outer Product
 [E] Given two vectors and . Calculate the outer product ?
+  - The outer product results in a matrix where each element is the product of corresponding elements from **u** and **v**. For example, if **u** = [u₁, u₂] and **v** = [v₁, v₂], then:
+    ```
+    u ⊗ v = | u₁v₁  u₁v₂ |
+            | u₂v₁  u₂v₂ |
+    ```
+    
 [M] Give an example of how the outer product can be useful in ML.
 [E] What does it mean for two vectors to be linearly independent?
 
