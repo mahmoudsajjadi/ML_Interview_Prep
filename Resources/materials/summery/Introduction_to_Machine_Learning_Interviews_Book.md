@@ -1,5 +1,5 @@
 # Table of Contents
-1. [Summary: 4.1 How Long Do I Need for My Job Search?](#summary-41-how-long-do-i-need-for-my-job-search)
+1. [4.1 How Long Do I Need for My Job Search?](#41-how-long-do-i-need-for-my-job-search)
    - [Overview](#overview)
    - [Recommended Timeline](#recommended-timeline)
    - [Key Insights](#key-insights)
