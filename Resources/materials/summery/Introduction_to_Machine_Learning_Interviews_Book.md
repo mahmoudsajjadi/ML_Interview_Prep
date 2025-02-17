@@ -1,3 +1,39 @@
+# Table of Contents
+1. [Summary: 4.1 How Long Do I Need for My Job Search?](#summary-41-how-long-do-i-need-for-my-job-search)
+   - [Overview](#overview)
+   - [Recommended Timeline](#recommended-timeline)
+   - [Key Insights](#key-insights)
+   - [Additional Resources](#additional-resources)
+
+2. [Summary: 4.2 How Other People Did It](#summary-42-how-other-people-did-it)
+   - [Overview](#overview-1)
+   - [Key Stories](#key-stories)
+   - [Insights](#insights)
+
+3. [Summary: 4.3 Resources](#summary-43-resources)
+   - [Overview](#overview-2)
+   - [Key Takeaways](#key-takeaways)
+   - [Additional Resources](#additional-resources-1)
+
+4. [Summary: 4.4 Do’s and Don’ts for ML Interviews](#summary-44-dos-and-donts-for-ml-interviews)
+   - [Do’s](#dos)
+   - [Don’ts](#donts)
+
+5. [Part II: Questions](#part-ii-questions)
+   - [Overview](#overview-3)
+   - [Key Highlights](#key-highlights)
+   - [Additional Tips](#additional-tips)
+
+6. [Chapter 5: Math](#chapter-5-math)
+   - [Overview](#overview-4)
+   - [Key Mathematical Areas in ML](#key-mathematical-areas-in-ml)
+   - [Notation](#notation)
+   - [Topics in Chapter 5](#topics-in-chapter-5)
+   - [Example Questions](#example-questions)
+
+---
+
+
 # Summary: 4.1 How long do I need for my job search?
 
 ## Overview
