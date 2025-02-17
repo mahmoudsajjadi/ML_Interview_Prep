@@ -302,6 +302,16 @@ This chapter introduces fundamental math concepts that will aid in solving pract
       - In PCA, the covariance matrix is decomposed into eigenvectors and eigenvalues to identify the most informative features and reduce dimensionality.
 
 [E] What does it mean for two vectors to be linearly independent?
+   - Two vectors **u** and **v** are linearly independent if neither can be expressed as a scalar multiple of the other. Mathematically, this means there are no scalars **a** and **b** (not both zero) such that:  
+    ```
+    a·u + b·v = 0
+    ```  
+    where **0** is the zero vector.  
+   - **Geometric Interpretation:**  
+    - Two vectors are linearly independent if they do not lie on the same line in the vector space. If they lie on the same line, they are linearly dependent.  
+   - **Importance in Linear Algebra:**  
+    - Linear independence is fundamental for defining a **basis** of a vector space. A basis is a set of linearly independent vectors that can represent any vector in the space as a linear combination.  
+    - For example, in 2D space, any two linearly independent vectors form a basis.  
 
 #### Linear Independence
 [M] Given two sets of vectors and . How do you check that they share the same basis?
