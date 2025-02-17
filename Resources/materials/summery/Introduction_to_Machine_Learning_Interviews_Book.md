@@ -281,6 +281,7 @@ This chapter introduces fundamental math concepts that will aid in solving pract
 
 
 [E] Given a vector, find vector of unit length such that the dot product of and is maximum.
+The vector **v** that maximizes the dot product with **u** is the unit vector in the direction of **u** (i.e., **v** = **u** / ||**u**||).
 
 #### Outer Product
 [E] Given two vectors and . Calculate the outer product ?
