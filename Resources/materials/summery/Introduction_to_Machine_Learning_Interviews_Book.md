@@ -292,6 +292,15 @@ This chapter introduces fundamental math concepts that will aid in solving pract
     ```
     
 [M] Give an example of how the outer product can be useful in ML.
+  - The outer product is useful in ML for tasks like computing covariance matrices, constructing feature interactions, or representing relationships between embeddings in natural language processing (e.g., word embeddings).
+   
+  - The outer product is useful in ML for tasks like **feature engineering** and **computing covariance matrices**.  
+    - **Feature Engineering:**  
+      - The outer product can create new features by capturing interactions between existing features. 
+    - **Covariance Matrix:**  
+      - The outer product is used to compute the covariance matrix of a dataset, which captures relationships between features. This is essential for techniques like **Principal Component Analysis (PCA)** and **Linear Discriminant Analysis (LDA)**.  
+      - In PCA, the covariance matrix is decomposed into eigenvectors and eigenvalues to identify the most informative features and reduce dimensionality.
+
 [E] What does it mean for two vectors to be linearly independent?
 
 #### Linear Independence
