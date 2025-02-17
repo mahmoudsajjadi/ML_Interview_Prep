@@ -13,6 +13,7 @@ Welcome to **ML Interview Prep**! This repository is designed to help you prepar
 ---
 
 ### Topics
+- [Data Structures and Algorithms (DSA)](Topics/DSA.md)
 - [Supervised Learning](Topics/Supervised_Learning.md)
 - [Unsupervised Learning](Topics/Unsupervised_Learning.md)
 - [Supervised vs. Unsupervised Learning](Topics/Supervised_vs_Unsupervised.md)
