@@ -265,6 +265,21 @@ This chapter introduces fundamental math concepts that will aid in solving pract
 
 #### Dot Product
 [E] What’s the geometric interpretation of the dot product of two vectors?
+  - The dot product of two vectors **A** and **B** is a scalar given by:  
+    ```
+    A · B = |A| * |B| * cos(θ)
+    ```  
+    where |**A**| and |**B**| are the magnitudes of the vectors, and θ is the angle between them.  
+  - **Geometric Interpretation:**  
+    - The dot product represents the projection of **A** onto **B**, scaled by the magnitude of **B**.  
+    - If the dot product is:  
+      - **Positive:** The angle θ is acute (vectors point in similar directions).  
+      - **Negative:** The angle θ is obtuse (vectors point in opposite directions).  
+      - **Zero:** The vectors are perpendicular (θ = 90°).  
+  - **Visualization:**  
+    - Imagine projecting **A** onto **B**. The dot product gives the length of this projection, multiplied by |**B**|.
+
+
 [E] Given a vector, find vector of unit length such that the dot product of and is maximum.
 
 #### Outer Product
