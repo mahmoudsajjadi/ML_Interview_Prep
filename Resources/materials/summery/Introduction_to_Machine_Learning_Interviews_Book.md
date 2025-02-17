@@ -260,6 +260,26 @@ Note: This section doesn’t cover all possible math areas in ML, such as **grap
 
 This chapter introduces fundamental math concepts that will aid in solving practical machine learning problems.
 
+## 5.1 Algebra and (little) calculus
+### 5.1.1 Vectors
+
+#### Dot Product
+[E] What’s the geometric interpretation of the dot product of two vectors?
+[E] Given a vector, find vector of unit length such that the dot product of and is maximum.
+
+#### Outer Product
+[E] Given two vectors and . Calculate the outer product ?
+[M] Give an example of how the outer product can be useful in ML.
+[E] What does it mean for two vectors to be linearly independent?
+
+#### Linear Independence
+[M] Given two sets of vectors and . How do you check that they share the same basis?
+[M] Given vectors, each of dimensions. What is the dimension of their span?
+
+#### Norms and Metrics
+[E] What's a norm? What is ?
+[M] How do norm and metric differ? Given a norm, make a metric. Given a metric, can we make a norm?
+
 
 [Back to Main Page](https://github.com/mahmoudsajjadi/ML_Interview_Prep)
 
