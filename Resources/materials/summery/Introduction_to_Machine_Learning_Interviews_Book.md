@@ -216,10 +216,9 @@ This section features over 200 deterministic questions designed to test your und
 - Focus on "why" questions to demonstrate a deeper grasp of concepts.  
 
 
-===========================================================================
-                            **Chapter 5: Math**
-===========================================================================
+# Chapter 5: Math
 
+## Overview
 If you're primarily running pre-existing ML code (like `keras.fit`) without developing new models, this chapter may not be necessary for you. However, a solid understanding of math will greatly enhance your ability to:
 
 - Evaluate trade-offs between different algorithms.
@@ -242,11 +241,10 @@ Note: This section doesn’t cover all possible math areas in ML, such as **grap
 - For matrices, the first row is denoted by a subscript.
 
 ### Topics in Chapter 5:
-
 #### Vectors
 - **Dot Product:**
   - Geometric interpretation of the dot product of two vectors.
-  - Find a unit vector such that its dot product with another vector is maximized.
+  - Find a unit vector to maximize its dot product with another vector.
 - **Outer Product:**
   - Definition and calculation of the outer product.
   - How the outer product can be useful in ML.
