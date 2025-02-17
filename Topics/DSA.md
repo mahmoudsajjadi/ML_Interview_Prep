@@ -44,7 +44,7 @@ This course covers essential **Data Structures & Algorithms (DSA)** topics requi
 ## Kadane's Algorithm
 
 ### Problem Statement
-Given an array of integers (positive or negative), find the maximum sum of a **contiguous subarray**.
+Given an array of integers (positive or negative), find the maximum sum of a (non-empty) **contiguous subarray**.
 
 ### Key Insights
 1. **Contiguous Subarray:** The subarray must consist of consecutive elements.
