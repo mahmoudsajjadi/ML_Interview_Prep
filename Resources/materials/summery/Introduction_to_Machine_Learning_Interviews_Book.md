@@ -34,7 +34,7 @@
 ---
 
 
-# Summary: 4.1 How long do I need for my job search?
+# 4.1 How long do I need for my job search?
 
 ## Overview
 The job search process for machine learning roles is long, stressful, and varies by location. This summary provides a practical timeline and resources to prepare effectively.
@@ -100,7 +100,7 @@ The job search process for machine learning roles is long, stressful, and varies
 - **[Full Stack Deep Learning Lectures](https://fullstackdeeplearning.com/)**  
 
 
-# Summary: 4.2 How Other People Did It
+# 4.2 How Other People Did It
 
 ## Overview
 Learning from the career paths of others can provide valuable insights and inspiration. There is no single route to a career in machine learning (ML). People with unconventional backgrounds often bring unique perspectives and are highly sought after. This section highlights a few inspiring stories of individuals who carved their own paths into ML roles.
@@ -132,7 +132,7 @@ Learning from the career paths of others can provide valuable insights and inspi
 - **Focused Preparation:** A strategic approach to skills development and job targeting can yield significant results.
 
 
-# Summary: 4.3 Resources
+# 4.3 Resources
 
 ## Overview
 The most effective way to become an ML engineer is to focus on hands-on learning. Doing projects, taking courses, and actively participating in coding communities are highly effective. College education ranks slightly above YouTube tutorials and blogs in perceived usefulness, while podcasts, newsletters, and conferences are considered the least effective for skill-building. However, conferences are excellent for networking and showcasing research through publications.
