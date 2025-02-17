@@ -280,11 +280,11 @@ This chapter introduces fundamental math concepts that will aid in solving pract
     - Imagine projecting **A** onto **B**. The dot product gives the length of this projection, multiplied by |**B**|.
 
 
-[E] Given a vector, find vector of unit length such that the dot product of and is maximum.
+[E] Given a vector **u**, find a vector **v** of unit length such that the dot product of **u** and **v** is maximum. 
 - The vector **v** that maximizes the dot product with **u** is the unit vector in the direction of **u** (i.e., **v** = **u** / ||**u**||).
 
 #### Outer Product
-[E] Given two vectors and . Calculate the outer product ?
+[E] Given two vectors **u** and **v**, calculate the outer product **u** ⊗ **v**.  
   - The outer product results in a matrix where each element is the product of corresponding elements from **u** and **v**. For example, if **u** = [u₁, u₂] and **v** = [v₁, v₂], then:
     ```
     u ⊗ v = | u₁v₁  u₁v₂ |
@@ -314,7 +314,16 @@ This chapter introduces fundamental math concepts that will aid in solving pract
     - For example, in 2D space, any two linearly independent vectors form a basis.  
 
 #### Linear Independence
-[M] Given two sets of vectors and . How do you check that they share the same basis?
+[M] Given two sets of vectors **A** = {**a₁**, **a₂**, ..., **aₙ**} and **B** = {**b₁**, **b₂**, ..., **bₘ**}, how do you check that they share the same basis? 
+  - To check if **A** and **B** share the same basis:  
+    1. **Check Linear Independence:**  
+       - Ensure that both sets **A** and **B** are linearly independent.  
+       - Use row reduction (Gaussian elimination) to compute the **row echelon form** of the matrices formed by **A** and **B**. If there are no rows of zeros, the vectors are linearly independent.  
+    2. **Verify Spanning the Same Space:**  
+       - Confirm that every vector in **A** can be expressed as a linear combination of vectors in **B**, and vice versa.  
+       - This ensures that both sets span the same vector space.  
+    3. **Compare Dimensionality:**  
+       - Ensure that both sets have the same number of linearly independent vectors (i.e., the same dimensionality).  
 [M] Given vectors, each of dimensions. What is the dimension of their span?
 
 #### Norms and Metrics
