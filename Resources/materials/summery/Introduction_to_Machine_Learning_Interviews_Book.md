@@ -5,17 +5,17 @@
    - [Key Insights](#key-insights)
    - [Additional Resources](#additional-resources)
 
-2. [Summary: 4.2 How Other People Did It](#summary-42-how-other-people-did-it)
+2. [4.2 How Other People Did It](#42-how-other-people-did-it)
    - [Overview](#overview-1)
    - [Key Stories](#key-stories)
    - [Insights](#insights)
 
-3. [Summary: 4.3 Resources](#summary-43-resources)
+3. [4.3 Resources](#43-resources)
    - [Overview](#overview-2)
    - [Key Takeaways](#key-takeaways)
    - [Additional Resources](#additional-resources-1)
 
-4. [Summary: 4.4 Do’s and Don’ts for ML Interviews](#summary-44-dos-and-donts-for-ml-interviews)
+4. [4.4 Do’s and Don’ts for ML Interviews](#44-dos-and-donts-for-ml-interviews)
    - [Do’s](#dos)
    - [Don’ts](#donts)
 
