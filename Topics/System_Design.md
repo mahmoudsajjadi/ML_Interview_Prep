@@ -70,3 +70,19 @@ Designing distributed systems is challenging due to inherent properties like net
 | **Partial Failures**      | Only some components fail, while others continue to operate.                    | Requires handling atomicity: ensure operations apply to all nodes or none.      |
 | **Concurrency**           | Multiple computations occur simultaneously, potentially interfering with each other. | Requires mechanisms to handle race conditions and ensure data consistency.      |
 
+---
+
+# Measures of Correctness in Distributed Systems
+
+Correctness in distributed systems is measured by two key properties: **Safety** and **Liveness**. These properties ensure that a system behaves as expected under all conditions.
+
+| **Property**   | **Definition**                                                                 | **Example (Traffic Light System)**                                                                 |
+|----------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Safety**     | Something that must **never happen** in a correct system.                     | The traffic light must **never show green for both directions at the same time** (to avoid accidents). |
+| **Liveness**   | Something that must **eventually happen** in a correct system.                | The traffic light must **eventually switch from red to green** for each direction (to allow traffic flow). |
+
+---
+
+## **Notes**
+   - There is often a tension between safety and liveness. In some cases, it is impossible to guarantee both simultaneously.
+   - Example: In a distributed system, ensuring safety (e.g., no data loss) may delay liveness (e.g., immediate data availability).
