@@ -81,8 +81,32 @@ Correctness in distributed systems is measured by two key properties: **Safety**
 | **Safety**     | Something that must **never happen** in a correct system.                     | The traffic light must **never show green for both directions at the same time** (to avoid accidents). |
 | **Liveness**   | Something that must **eventually happen** in a correct system.                | The traffic light must **eventually switch from red to green** for each direction (to allow traffic flow). |
 
----
 
 ## **Notes**
    - There is often a tension between safety and liveness. In some cases, it is impossible to guarantee both simultaneously.
    - Example: In a distributed system, ensuring safety (e.g., no data loss) may delay liveness (e.g., immediate data availability).
+
+---
+
+# System Models in Distributed Systems
+
+Distributed systems can be categorized based on their communication and timing properties. Below is a summary of the key system models:
+
+| **Model**            | **Description**                                                                 | **Key Characteristics**                                                                 |
+|-----------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| **Synchronous System**| Nodes have accurate clocks and known upper bounds for message delays.           | - Execution is split into rounds. <br> - Nodes run in lock-step. <br> - Easier to reason about. |
+| **Asynchronous System**| No fixed upper bounds on message delays or node processing times.              | - Nodes run at independent rates. <br> - No common notion of time. <br> - Closer to real-world systems (e.g., the Internet). |
+
+
+
+## **Notes**
+1. **Synchronous Systems**:
+   - Predictable timing and communication.
+   - Easier to design and reason about but less realistic.
+
+2. **Asynchronous Systems**:
+   - Unpredictable timing and communication.
+   - Harder to design but more representative of real-world distributed systems (e.g., the Internet).
+
+3. **Real-World Relevance**:
+   - Most real-world systems (e.g., the Internet) are asynchronous.
