@@ -110,3 +110,20 @@ Distributed systems can be categorized based on their communication and timing p
 
 3. **Real-World Relevance**:
    - Most real-world systems (e.g., the Internet) are asynchronous.
+
+
+---
+# Types of Failures in Distributed Systems
+
+Distributed systems can experience different types of failures. Below is a summary of the four basic failure types:
+
+| **Failure Type** | **Description**                                                                 | **Key Characteristics**                                                                 |
+|------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| **Fail-stop**    | A node halts permanently, and other nodes can detect the failure.               | - Easy to detect. <br> - Simplest failure model. <br> - Not very realistic.             |
+| **Crash**        | A node halts silently, and other nodes cannot immediately detect the failure.   | - Harder to detect. <br> - Common assumption in distributed algorithms.                |
+| **Omission**     | A node fails to respond to incoming requests or messages.                       | - Partial failure. <br> - Can be due to network issues or node unresponsiveness.       |
+| **Byzantine**    | A node behaves arbitrarily, sending incorrect or malicious messages.            | - Hardest to handle. <br> - Requires complex solutions (e.g., Byzantine Fault Tolerance). |
+
+
+   - Most distributed systems assume **crash failures** for simplicity.
+   - **Byzantine failures** are rare but critical in adversarial environments (e.g., blockchain systems).
