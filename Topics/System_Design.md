@@ -153,3 +153,24 @@ In distributed systems, ensuring a message is processed **exactly once** is chal
    - **At-most-once**: Messages may be lost but never duplicated.
    - **At-least-once**: Messages may be duplicated but never lost.
    - **Exactly-once**: Requires careful design to avoid both loss and duplication.
+
+---
+# Failure in the World of Distributed Systems
+
+Detecting failures in distributed systems is challenging due to network asynchrony. Below is a summary of key concepts and mechanisms:
+
+| **Concept**                     | **Description**                                                                 | **Trade-offs**                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| **Reason for Failure**           | Hard to differentiate between a crashed node and a slow node.                   | Network asynchrony makes detection difficult.                                 |
+| **Failure Detection Mechanism**  | Use **timeouts** to impose an artificial upper bound on message delays.         | - **Small timeout**: Faster detection but risks false positives. <br> - **Large timeout**: Fewer false positives but slower detection. |
+| **Failure Detector**             | A component that identifies failed nodes.                                       | Essential for algorithms to make progress in the presence of failures.        |
+| **Properties of Failure Detectors** | - **Completeness**: Percentage of crashed nodes detected. <br> - **Accuracy**: Number of mistakes made. | Trade-off between completeness and accuracy.                                  |
+| **Perfect Failure Detector**     | Detects all failures without mistakes.                                          | Impossible in purely asynchronous systems.                                    |
+
+
+
+**Perfect Failure Detector**:
+   - Ideal but impossible in asynchronous systems.
+   - Imperfect failure detectors are still useful for solving problems like consensus.
+
+     
