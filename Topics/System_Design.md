@@ -127,3 +127,29 @@ Distributed systems can experience different types of failures. Below is a summa
 
    - Most distributed systems assume **crash failures** for simplicity.
    - **Byzantine failures** are rare but critical in adversarial environments (e.g., blockchain systems).
+
+---
+# The Tale of Exactly-Once Semantics
+
+In distributed systems, ensuring a message is processed **exactly once** is challenging due to unreliable networks and potential message retries. Below is a summary of key concepts and approaches:
+
+| **Concept**                     | **Description**                                                                 | **Example**                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Multiple Deliveries**          | Messages may be delivered multiple times due to retries.                        | A bank charging a customer twice for the same transaction.                  |
+| **Idempotent Operations**        | Operations that produce the same result even if applied multiple times.         | Adding a value to a set (no effect if value already exists).                |
+| **Non-Idempotent Operations**    | Operations that produce different results if applied multiple times.            | Incrementing a counter (side effects with each application).                |
+| **De-duplication Approach**      | Use unique message IDs to avoid processing duplicates.                          | Sender assigns IDs; receiver tracks and ignores duplicate IDs.              |
+| **Delivery vs. Processing**      | Delivery: Message arrival at the node. <br> Processing: Handling the message.   | A node may receive a message twice but process it only once.                |
+| **Delivery Semantics**           | - **At-most-once**: Message sent once, no retries. <br> - **At-least-once**: Message retried until acknowledged. | - At-most-once: Risk of message loss. <br> - At-least-once: Risk of duplicates. |
+
+
+
+### **Key Takeaways**
+1. **Exactly-Once Processing**:
+   - Achievable using **idempotent operations** or **de-duplication**.
+   - Focuses on ensuring the message is processed only once, even if delivered multiple times.
+
+2. **Delivery Semantics**:
+   - **At-most-once**: Messages may be lost but never duplicated.
+   - **At-least-once**: Messages may be duplicated but never lost.
+   - **Exactly-once**: Requires careful design to avoid both loss and duplication.
