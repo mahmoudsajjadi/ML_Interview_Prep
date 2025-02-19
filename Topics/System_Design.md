@@ -173,4 +173,13 @@ Detecting failures in distributed systems is challenging due to network asynchro
    - Ideal but impossible in asynchronous systems.
    - Imperfect failure detectors are still useful for solving problems like consensus.
 
-     
+---
+# Stateless and Stateful Systems
+
+| **Aspect**       | **Stateless Systems**                              | **Stateful Systems**                              |
+|-------------------|---------------------------------------------------|--------------------------------------------------|
+| **Definition**    | No internal state; outputs depend only on inputs.  | Maintains internal state; outputs depend on state and inputs. |
+| **Examples**      | - Max value calculator. <br> - Price calculator.  | - System storing employee ages.                 |
+| **Complexity**    | Simple to design, build, and scale.               | Complex due to state management and sync.       |
+| **Scalability**   | Easy to scale; nodes are identical.               | Harder to scale; nodes hold different data.     |
+| **Use Cases**     | Stateless APIs, request-response services.        | Databases, systems requiring state persistence. |
