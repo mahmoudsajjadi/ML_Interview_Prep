@@ -58,3 +58,15 @@ Developers often make false assumptions when building distributed systems. These
 | **Transport cost is zero**       | Data transfer incurs financial and performance costs.                      | Minimize unnecessary data transfer and optimize costs.                          |
 | **Global clock fallacy**         | Distributed systems lack a global clock; clocks drift and are inconsistent. | Use logical clocks (e.g., Lamport timestamps) for event ordering.               |
 
+---
+
+# Difficulties in Designing Distributed Systems
+
+Designing distributed systems is challenging due to inherent properties like network asynchrony, partial failures, and concurrency. Below is a summary of these challenges:
+
+| **Challenge**            | **Description**                                                                 | **Implications**                                                                 |
+|--------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| **Network Asynchrony**    | Networks cannot guarantee message delivery time, order, or success.             | Messages may be delayed, arrive out of order, or fail to deliver.               |
+| **Partial Failures**      | Only some components fail, while others continue to operate.                    | Requires handling atomicity: ensure operations apply to all nodes or none.      |
+| **Concurrency**           | Multiple computations occur simultaneously, potentially interfering with each other. | Requires mechanisms to handle race conditions and ensure data consistency.      |
+
