@@ -44,3 +44,19 @@ While distributed systems offer **performance**, **scalability**, and **availabi
 - **Consistency**: Ensuring data consistency across nodes is difficult.
 - **Failure Handling**: Nodes or networks can fail, requiring robust fault tolerance.
 
+# Fallacies of Distributed Computing
+
+Developers often make false assumptions when building distributed systems. These fallacies can lead to poor system design and failures. Below is a summary of the key fallacies:
+
+| **Fallacy**                     | **Reality**                                                                 | **Implications**                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| **The network is reliable**      | Networks are unreliable; hardware and connections can fail.                 | Design for fault tolerance and retries.                                         |
+| **Latency is zero**              | Remote calls have significant latency compared to local memory access.      | Optimize for latency and minimize remote calls.                                 |
+| **Bandwidth is infinite**        | Bandwidth is limited, especially over the internet.                        | Optimize data transfer and consider network topology.                           |
+| **The network is secure**        | Networks are insecure; data can be intercepted or tampered with.           | Use encryption, authentication, and secure protocols.                          |
+| **Topology doesn’t change**      | Network topology changes due to failures or updates.                       | Design for dynamic network conditions.                                          |
+| **There is one administrator**   | Networks are managed by multiple entities with different policies.         | Account for varying configurations and policies.                                |
+| **The network is homogeneous**   | Networks consist of diverse hardware and software.                         | Ensure compatibility and handle heterogeneity.                                  |
+| **Transport cost is zero**       | Data transfer incurs financial and performance costs.                      | Minimize unnecessary data transfer and optimize costs.                          |
+| **Global clock fallacy**         | Distributed systems lack a global clock; clocks drift and are inconsistent. | Use logical clocks (e.g., Lamport timestamps) for event ordering.               |
+
