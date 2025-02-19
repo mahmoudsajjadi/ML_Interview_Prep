@@ -2,7 +2,6 @@
 
 A **distributed system** is a system whose components are located on different networked computers, communicating and coordinating their actions by passing messages. These components (or nodes) can be web servers, databases, or other software programs running on separate machines.
 
----
 
 ## Key Concepts
 
@@ -26,7 +25,6 @@ Distributed systems solve three major problems faced by single-computer systems:
 | **Scalability**   | Cannot handle growing data or traffic beyond a point.     | Distribute data and processing across multiple nodes.  |
 | **Availability**  | Single point of failure; cannot guarantee 24/7 uptime.    | Use redundancy to ensure high availability.            |
 
----
 
 ### **Scaling in Distributed Systems**
 - **Vertical Scaling (Scale Up)**:
@@ -36,13 +34,13 @@ Distributed systems solve three major problems faced by single-computer systems:
   - Add more nodes to the system.
   - Allows for near-limitless scaling by distributing load across nodes.
 
----
-
 ## Trade-offs in Distributed Systems
 While distributed systems offer **performance**, **scalability**, and **availability**, they introduce challenges:
 - **Complexity**: Designing and managing distributed systems is harder than single-computer systems.
 - **Consistency**: Ensuring data consistency across nodes is difficult.
 - **Failure Handling**: Nodes or networks can fail, requiring robust fault tolerance.
+
+---
 
 # Fallacies of Distributed Computing
 
