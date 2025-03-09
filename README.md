@@ -36,6 +36,7 @@ Welcome to **ML Interview Prep**! This repository is designed to help you prepar
 
 ### Interview Prep
 - [Common Questions](Interview_Prep/Common_Questions.md)
+- [Behavioral Interview](Interview_Prep/Behavioral_Interview.md)
 - [Mock Tests](Interview_Prep/Mock_Tests.md)
 
 ### Resources
