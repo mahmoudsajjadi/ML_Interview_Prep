@@ -7,9 +7,7 @@ This module introduces **linear regression**, a statistical technique used to mo
 ### 1. **Linear Regression Equation**
    - The core equation for linear regression is:
 
-     $
-     y' = b + w_1x_1
-     $
+     $     y' = b + w_1x_1     $
 
      - $y'$: Predicted label (output).
      - $b$: Bias (y-intercept).
