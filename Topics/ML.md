@@ -1,16 +1,26 @@
 # Linear Regression Module Summary
 
-## Overview
-This module introduces **linear regression**, a statistical technique used to model the relationship between features and a label in machine learning. It covers key concepts such as loss functions, gradient descent, and hyperparameter tuning.
-
 ## Key Concepts
-### 1. **Linear Regression Equation**
-   - The core equation for linear regression is:  $y' = b + w_1x_1$
 
+### 1. **Linear Regression Equation**
+   - The core equation for linear regression is:
+
+     ```markdown
+     $ y' = b + w_1x_1 + w_2x_2 + \dots + w_nx_n $
+     ```
+
+     or using an HTML block:
+
+     ```html
+     <div align="center"> \( y' = b + w_1x_1 + w_2x_2 + \dots + w_nx_n \) </div>
+     ```
+
+   - Where:
      - $y'$: Predicted label (output).
      - $b$: Bias (y-intercept).
      - $w_1$: Weight (slope of the line).
      - $x_1$: Feature (input).
+
 
    - Example: Predicting car fuel efficiency (miles per gallon) based on car weight.
 
