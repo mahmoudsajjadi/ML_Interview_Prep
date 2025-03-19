@@ -57,25 +57,13 @@ Loss is a numerical metric that measures how wrong a model's predictions are. It
 
 ### 2. **Types of Loss**
    - **L1 Loss**: The sum of the absolute differences between predictions and actual values.
-     - Equation: 
-       $$
-       \text{L1 Loss} = \sum |y - y'|
-       $$
+     - Equation: `L1 Loss = Σ |y - y'|`
    - **Mean Absolute Error (MAE)**: The average of L1 losses across a set of examples.
-     - Equation:
-       $$
-       \text{MAE} = \frac{1}{n} \sum |y - y'|
-       $$
+     - Equation: `MAE = (1/n) * Σ |y - y'|`
    - **L2 Loss**: The sum of the squared differences between predictions and actual values.
-     - Equation:
-       $$
-       \text{L2 Loss} = \sum (y - y')^2
-       $$
+     - Equation: `L2 Loss = Σ (y - y')^2`
    - **Mean Squared Error (MSE)**: The average of L2 losses across a set of examples.
-     - Equation:
-       $$
-       \text{MSE} = \frac{1}{n} \sum (y - y')^2
-       $$
+     - Equation: `MSE = (1/n) * Σ (y - y')^2`
 
 ### 3. **Choosing a Loss Function**
    - **MSE**:
@@ -87,10 +75,7 @@ Loss is a numerical metric that measures how wrong a model's predictions are. It
 
 ### 4. **Example: Calculating L2 Loss**
    - **Scenario**: A model predicts that a 2,370-pound car gets 21.5 miles per gallon, but the actual value is 24 miles per gallon.
-   - **Calculation**:
-     $$
-     \text{L2 Loss} = (24 - 21.5)^2 = 6.25
-     $$
+   - **Calculation**: `L2 Loss = (24 - 21.5)^2 = 6.25`
 
 ### 5. **Graphical Representation**
    - Loss is visualized as the distance between data points and the model's predictions.
