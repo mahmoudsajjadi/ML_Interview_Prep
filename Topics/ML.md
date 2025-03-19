@@ -5,15 +5,9 @@
 ### 1. **Linear Regression Equation**
    - The core equation for linear regression is:
 
-     ```markdown
-     $ y' = b + w_1x_1 + w_2x_2 + \dots + w_nx_n $
-     ```
-
-     or using an HTML block:
-
-     ```html
-     <div align="center"> \( y' = b + w_1x_1 + w_2x_2 + \dots + w_nx_n \) </div>
-     ```
+     \[
+     y' = b + w_1x_1 + w_2x_2 + \dots + w_nx_n
+     \]
 
    - Where:
      - $y'$: Predicted label (output).
