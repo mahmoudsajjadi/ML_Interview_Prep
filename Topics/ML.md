@@ -30,13 +30,7 @@
    - Data points are plotted to visualize relationships (e.g., car weight vs. fuel efficiency).
    - A best-fit line represents the model.
 
-## Learning Objectives
-- Explain loss functions and gradient descent.
-- Tune hyperparameters for efficient model training.
-- Understand the role of bias, weights, and features in linear regression.
 
-## Prerequisites
-- Familiarity with **Introduction to Machine Learning**.
 
 ## Key Terms
 - **Bias ($b$)**: The y-intercept in the regression equation.
