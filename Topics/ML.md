@@ -21,7 +21,8 @@
    - **Gradient descent** is used to find the optimal parameters.
 
 ### 3. **Multiple Features**
-   - For multiple features, the equation extends to:  $ y' = b + w_1x_1 + w_2x_2 + \dots + w_nx_n $
+   - For multiple features, the equation extends to:
+     $$y' = b + w_1x_1 + w_2x_2 + \dots + w_nx_n$$
 
    - Example: Predicting fuel efficiency using weight, horsepower, and acceleration.
 
