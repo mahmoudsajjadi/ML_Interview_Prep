@@ -5,9 +5,7 @@
 ### 1. **Linear Regression Equation**
    - The core equation for linear regression is:
 
-     **
-     y' = b + w_1x_1
-     **
+     $$y' = b + w_1x_1$$
 
    - Where:
      - $y'$: Predicted label (output).
