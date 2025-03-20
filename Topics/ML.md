@@ -96,5 +96,56 @@ Loss is a numerical metric that measures how wrong a model's predictions are. It
    - **Dataset 2**: A line runs through 8 of 10 points. 1 point is 2 units above the line, and 1 point is 2 units below the line.
    - **Answer**: **Dataset 2** has a higher MSE because the outliers are twice as far from the line, and squaring amplifies their impact.
 
+# Linear Regression: Gradient Descent
+
+## Overview
+Gradient descent is a mathematical technique used to iteratively find the optimal weights and bias that minimize the loss in a linear regression model. It is a core optimization algorithm in machine learning.
+
+## Key Concepts
+
+### 1. **What is Gradient Descent?**
+   - Gradient descent is an iterative process that:
+     1. Starts with randomized weights and biases near zero.
+     2. Calculates the loss using the current weights and bias.
+     3. Determines the direction to adjust the weights and bias to reduce loss.
+     4. Moves the weights and bias a small amount in that direction.
+     5. Repeats the process until the loss is minimized.
+
+### 2. **Steps of Gradient Descent**
+   - **Step 1**: Initialize weights and bias to small random values (often near zero).
+   - **Step 2**: Calculate the loss (e.g., Mean Squared Error) using the current weights and bias.
+   - **Step 3**: Compute the derivatives of the loss function with respect to the weights and bias.
+     - **Weight Derivative**:
+       $$\frac{\partial \text{Loss}}{\partial w} = \frac{2}{n} \sum_{i=1}^n (y_i' - y_i) \cdot x_i$$
+     - **Bias Derivative**:
+       $$\frac{\partial \text{Loss}}{\partial b} = \frac{2}{n} \sum_{i=1}^n (y_i' - y_i)$$
+   - **Step 4**: Update the weights and bias:
+     $$w_{\text{new}} = w_{\text{old}} - \alpha \cdot \frac{\partial \text{Loss}}{\partial w}$$
+     $$b_{\text{new}} = b_{\text{old}} - \alpha \cdot \frac{\partial \text{Loss}}{\partial b}$$
+     - Where \( \alpha \) is the **learning rate** (a small value, e.g., 0.01).
+   - **Step 5**: Repeat until the loss converges (stops decreasing significantly).
+
+### 4. **Model Convergence**
+   - **Loss Curve**: A graph of loss vs. iterations shows how the loss decreases over time.
+     - Initially, the loss decreases rapidly.
+     - Eventually, the loss flattens out, indicating convergence.
+   - **Convex Loss Surface**: Linear regression loss functions are convex, ensuring gradient descent finds the global minimum.
+
+### 5. **Visualizing Gradient Descent**
+   - **Initial Model**: High loss, poor fit to data.
+   - **Mid-Training Model**: Loss decreases, model improves.
+   - **Converged Model**: Lowest loss, best fit to data.
+
+## Key Terms
+- **Gradient Descent**: An iterative optimization algorithm used to minimize loss.
+- **Learning Rate (\( \alpha \))**: A small value that controls the step size during updates.
+- **Convergence**: When the loss stops decreasing significantly.
+- **Loss Curve**: A graph showing how loss changes over iterations.
+- **Convex Function**: A function with a single global minimum (e.g., linear regression loss).
+
+## Exercise
+- **Question**: What is the role of gradient descent in linear regression?
+  - **Answer**: Gradient descent is an iterative process that finds the best weights and bias to minimize the loss.
+
 ## Reference
 - Source: [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
