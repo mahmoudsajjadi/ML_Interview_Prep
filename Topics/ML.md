@@ -268,5 +268,52 @@ Logistic regression is a machine learning model used to predict the probability 
 - **Binary Classification**: A problem where the output is one of two possible classes (e.g., spam or not spam).
 
 
+# Logistic Regression: Loss and Regularization
+
+## Overview
+Logistic regression models are trained similarly to linear regression models, but with two key differences:
+1. **Log Loss** is used instead of squared loss.
+2. **Regularization** is critical to prevent overfitting.
+
+## Key Concepts
+
+### 1. **Log Loss**
+   - **Why Log Loss?**
+     - Squared loss (used in linear regression) is unsuitable for logistic regression because the sigmoid function's output changes non-linearly.
+     - As the predicted probability approaches 0 or 1, small changes in the input require high precision, which squared loss cannot handle efficiently.
+   - **Log Loss Formula**:
+     $$\text{Log Loss} = -\frac{1}{N} \sum_{i=1}^N \left( y_i \log(y'_i) + (1 - y_i) \log(1 - y'_i) \right)$$
+     - \( N \): Number of examples in the dataset.
+     - \( y_i \): Actual label (0 or 1).
+     - \( y'_i \): Predicted probability (between 0 and 1).
+   - **Properties**:
+     - Penalizes incorrect predictions more heavily as the predicted probability diverges from the actual label.
+     - Ensures the model focuses on improving predictions where it is most uncertain.
+
+### 2. **Regularization**
+   - **Why Regularization?**
+     - Logistic regression models can overfit, especially with a large number of features.
+     - Regularization penalizes model complexity, preventing the model from driving loss to 0 by overfitting to the training data.
+   - **Types of Regularization**:
+     - **L2 Regularization**: Adds a penalty proportional to the square of the weights to the loss function.
+     - **Early Stopping**: Limits the number of training steps to halt training while loss is still decreasing.
+   - **Importance**:
+     - Ensures the model generalizes well to unseen data.
+     - Balances model complexity and performance.
+
+## Key Terms
+- **Log Loss**: The loss function used in logistic regression, which measures the difference between predicted probabilities and actual labels.
+- **Regularization**: A technique to penalize model complexity and prevent overfitting.
+- **L2 Regularization**: A type of regularization that adds a penalty proportional to the square of the weights.
+- **Early Stopping**: A regularization technique that stops training when loss stops decreasing.
+- **Overfitting**: When a model performs well on training data but poorly on unseen data.
+
+## Exercise
+1. **Question**: Why is Log Loss used instead of squared loss in logistic regression?
+   - **Answer**: Squared loss is unsuitable for logistic regression because the sigmoid function's output changes non-linearly, requiring high precision as predictions approach 0 or 1. Log Loss handles this better by focusing on the logarithm of the error.
+
+2. **Question**: What is the purpose of regularization in logistic regression?
+   - **Answer**: Regularization prevents overfitting by penalizing model complexity, ensuring the model generalizes well to unseen data.
+
 ## Reference
 - Source: [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
