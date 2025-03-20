@@ -147,5 +147,76 @@ Gradient descent is a mathematical technique used to iteratively find the optima
 - **Question**: What is the role of gradient descent in linear regression?
   - **Answer**: Gradient descent is an iterative process that finds the best weights and bias to minimize the loss.
 
+# Linear Regression: Hyperparameters
+
+## Overview
+Hyperparameters are variables that control the training process of a model. Unlike model parameters (e.g., weights and bias), hyperparameters are set by the user before training begins. Key hyperparameters include **learning rate**, **batch size**, and **epochs**.
+
+## Key Concepts
+
+### 1. **Learning Rate**
+   - **Definition**: A floating-point number that controls the step size during gradient descent.
+   - **Role**:
+     - If the learning rate is **too low**, the model takes a long time to converge.
+     - If the learning rate is **too high**, the model may never converge and instead bounce around the optimal values.
+   - **Ideal Learning Rate**:
+     - Problem-dependent; must be tuned for each dataset and model.
+   - **Impact on Training**:
+     - **Too Low**: Slow convergence
+     - **Too High**: Loss fluctuates or increases
+     - **Ideal**: Loss decreases steadily and converges quickly
+
+### 2. **Batch Size**
+   - **Definition**: The number of examples processed before updating the model's weights and bias.
+   - **Types**:
+     - **Full Batch**: Uses the entire dataset for each update (not practical for large datasets).
+     - **Stochastic Gradient Descent (SGD)**: Uses **one example per batch**.
+       - Pros: Fast updates.
+       - Cons: Noisy loss curve
+     - **Mini-Batch SGD**: Uses a **subset of examples per batch** (e.g., 10, 100).
+       - Pros: Balances noise and computational efficiency
+   - **Choosing Batch Size**:
+     - Depends on the dataset and available compute resources.
+     - Smaller batches behave like SGD; larger batches behave like full-batch gradient descent.
+
+### 3. **Epochs**
+   - **Definition**: One full pass through the entire training dataset.
+   - **Role**:
+     - Training typically requires multiple epochs for the model to converge.
+     - More epochs generally improve the model but increase training time.
+   - **Example**:
+     - Dataset: 1,000 examples.
+     - Batch size: 100 examples.
+     - Iterations per epoch: 10.
+     - Total updates for 20 epochs: 200.
+
+### 4. **Hyperparameter Relationships**
+   - **Batch Size vs. Updates**:
+     - **Full Batch**: Updates occur once per epoch.
+     - **SGD**: Updates occur after every example.
+     - **Mini-Batch SGD**: Updates occur after each batch.
+   - **Learning Rate vs. Convergence**:
+     - A well-tuned learning rate ensures the model converges quickly without bouncing or stalling.
+
+## Key Terms
+- **Learning Rate**: Controls the step size during gradient descent.
+- **Batch Size**: Number of examples processed before updating weights and bias.
+- **Epoch**: One full pass through the training dataset.
+- **Stochastic Gradient Descent (SGD)**: Updates weights after each example.
+- **Mini-Batch SGD**: Updates weights after processing a subset of examples.
+- **Hyperparameter**: User-defined variables that control training.
+- **Parameter**: Model variables (e.g., weights, bias) learned during training.
+
+## Exercise
+1. **Question**: What is the ideal learning rate?
+   - **Answer**: The ideal learning rate is problem-dependent and varies for each dataset and model.
+
+2. **Question**: What's the best batch size when using mini-batch SGD?
+   - **Answer**: It depends on the dataset and available compute resources.
+
+3. **Question**: Which statement is true?
+   - **Statement**: Doubling the learning rate can slow down training.
+   - **Answer**: True. A learning rate that is too large can cause the model to bounce around, increasing convergence time.
+
 ## Reference
 - Source: [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
