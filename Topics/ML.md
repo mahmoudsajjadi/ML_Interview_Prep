@@ -236,24 +236,18 @@ Logistic regression is a machine learning model used to predict the probability 
 
 ### 2. **Logistic Regression Equation**
    - The linear component of logistic regression is:
-     $$
-     z = b + w_1x_1 + w_2x_2 + \dots + w_nx_n
-     $$
+     $$z = b + w_1x_1 + w_2x_2 + \dots + w_nx_n$$
      - \( z \): Linear output (log-odds).
      - \( b \): Bias.
      - \( w \): Weights.
      - \( x \): Feature values.
    - The logistic regression prediction is obtained by passing \( z \) through the sigmoid function:
-     $$
-     y' = \sigma(z) = \frac{1}{1 + e^{-z}}
-     $$
+     $$y' = \sigma(z) = \frac{1}{1 + e^{-z}}$$
      - \( y' \): Predicted probability (between 0 and 1).
 
 ### 3. **Log-Odds**
    - The linear output \( z \) is also called **log-odds**:
-     $$
-     z = \ln\left(\frac{y'}{1 - y'}\right)
-     $$
+     $$z = \ln\left(\frac{y'}{1 - y'}\right)$$
    - This represents the logarithm of the ratio of the probability of the positive class to the probability of the negative class.
 
 ### 4. **Example: Calculating Logistic Regression Output**
@@ -262,13 +256,9 @@ Logistic regression is a machine learning model used to predict the probability 
      - Weights (\( w_1, w_2, w_3 \)): 2, -1, 5
      - Input values (\( x_1, x_2, x_3 \)): 0, 10, 2
    - Step 1: Calculate \( z \):
-     $$
-     z = 1 + (2)(0) + (-1)(10) + (5)(2) = 1
-     $$
+     $$z = 1 + (2)(0) + (-1)(10) + (5)(2) = 1$$
    - Step 2: Calculate \( y' \) using the sigmoid function:
-     $$
-     y' = \frac{1}{1 + e^{-1}} \approx 0.731
-     $$
+     $$y' = \frac{1}{1 + e^{-1}} \approx 0.731$$
    - Interpretation: The model predicts a 73.1% probability of the positive class.
 
 ## Key Terms
@@ -277,12 +267,6 @@ Logistic regression is a machine learning model used to predict the probability 
 - **Log-Odds**: The logarithm of the ratio of the probability of the positive class to the probability of the negative class.
 - **Binary Classification**: A problem where the output is one of two possible classes (e.g., spam or not spam).
 
-## Exercise
-1. **Question**: What is the value of \( z \) for the given input values?
-   - **Answer**: \( z = 1 \).
-
-2. **Question**: What is the logistic regression prediction for these input values?
-   - **Answer**: \( y' \approx 0.731 \).
 
 ## Reference
 - Source: [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
