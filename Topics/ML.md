@@ -98,6 +98,3 @@ Loss is a numerical metric that measures how wrong a model's predictions are. It
 
 ## Reference
 - Source: [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
-
-## Reference
-- Source: [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
