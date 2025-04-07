@@ -315,5 +315,83 @@ Logistic regression models are trained similarly to linear regression models, bu
 2. **Question**: What is the purpose of regularization in logistic regression?
    - **Answer**: Regularization prevents overfitting by penalizing model complexity, ensuring the model generalizes well to unseen data.
 
+# Neural Networks Module Summary
+
+## Key Concepts
+
+### 1. **Motivation for Neural Networks**
+   - Neural networks excel at modeling complex, nonlinear relationships in data.
+   - They can automatically learn relevant feature interactions during the training process.
+
+### 2. **Key Components**
+   - **Nodes (Neurons)**: Fundamental units that perform weighted summation of inputs and apply an activation function.
+   - **Hidden Layers**: Intermediate layers of neurons that learn hierarchical representations of the input data.
+   - **Activation Functions**: Nonlinear functions applied to the output of each neuron, introducing non-linearity crucial for learning complex patterns.
+
+### 3. **Activation Functions**
+   - **Sigmoid**:
+     $$\sigma(x) = \frac{1}{1 + e^{-x}}$$
+     - Output range: $(0, 1)$.
+     - Commonly used for binary classification tasks where the output represents a probability.
+
+   - **Tanh (Hyperbolic Tangent)**:
+     $$\text{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
+     - Output range: $(-1, 1)$.
+     - Similar to sigmoid but centered around zero.
+
+   - **ReLU (Rectified Linear Unit)**:
+     $$\text{ReLU}(x) = \max(0, x)$$
+     - Output range: $[0, \infty)$.
+     - Widely used due to its simplicity and effectiveness in mitigating the vanishing gradient problem.
+
+### 4. **Training Neural Networks (Backpropagation)**
+   - An iterative optimization algorithm that uses **gradient descent** to minimize a **loss function** by adjusting the network's parameters (weights and biases).
+   - The **backpropagation** algorithm efficiently computes the gradients of the loss with respect to each parameter.
+   - Common challenges and mitigation strategies:
+     - **Vanishing Gradients**: ReLU activation function helps maintain gradient flow.
+     - **Exploding Gradients**: Techniques like **batch normalization** and careful learning rate selection can stabilize training.
+     - **Dead ReLU Units**: Occur when neurons get stuck with zero output; adjusting the learning rate or using variants like LeakyReLU can help.
+     - **Dropout Regularization**: A technique to reduce **overfitting** by randomly deactivating neurons during training, forcing the network to learn more robust features.
+
+### 5. **Multi-Class Classification**
+   - Handling classification problems with more than two distinct classes.
+   - **One-vs.-All (OvA)**:
+     - Trains multiple binary classifiers, where each classifier distinguishes one class from all other classes.
+     - Typically uses a sigmoid activation in the output layer for each binary classifier.
+
+   - **One-vs.-One (OvO)**:
+     - Trains a binary classifier for each pair of classes.
+     - Predictions are made by aggregating the results of all pairwise classifiers.
+
+   - **Softmax**:
+     - A function that converts a vector of raw scores into a probability distribution over multiple classes, where the probabilities sum to 1.
+     - The softmax function is defined as:
+       $$\text{Softmax}(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}$$
+       - Where $z_i$ is the raw score for class $i$, and $K$ is the total number of classes.
+
+   - **Candidate Sampling**: An efficient approximation of softmax used when dealing with a very large number of output classes.
+
+## Key Terms
+- **Neural Network**: A computational model inspired by the structure and function of the human brain, composed of interconnected artificial neurons.
+- **Hidden Layer**: Layers of neurons in a neural network that are not the input or output layer and learn complex intermediate representations.
+- **Activation Function**: A nonlinear function applied to the output of a neuron to introduce non-linearity into the network.
+- **Sigmoid/Tanh/ReLU**: Common types of activation functions with distinct output ranges and properties.
+- **Backpropagation**: The algorithm used to train neural networks by propagating error gradients backward through the network to update the weights and biases.
+- **Vanishing/Exploding Gradients**: Problems that can occur during the training of deep neural networks, where gradients become too small or too large, respectively, hindering learning.
+- **Dropout Regularization**: A regularization technique that randomly deactivates neurons during training to prevent overfitting.
+- **Multi-class Classification**: A classification problem with more than two possible class labels.
+- **Softmax Function**: A function that normalizes a vector of raw scores into a probability distribution over multiple categories.
+
+## Exercise
+1. **Question**: Why can't a neural network without activation functions learn nonlinearities?
+   - **Answer**: Without nonlinear activation functions, each layer in a neural network would perform a linear transformation of its input. Composing multiple linear transformations still results in a linear transformation. Therefore, the entire network would be equivalent to a single linear model, incapable of learning complex, nonlinear relationships present in most real-world data.
+
+2. **Question**: How does the softmax function differ from sigmoid in multi-class classification?
+   - **Answer**: The sigmoid function is typically used in binary classification or for independent probability estimation for multiple binary outcomes. It outputs a value between 0 and 1 for each input independently. In contrast, the softmax function is specifically designed for multi-class classification. It takes a vector of raw scores as input and transforms it into a probability distribution over all the classes, ensuring that the probabilities for all classes sum up to 1. This allows the network to directly model the likelihood of each class being the correct one.
+
+3. **Question**: What problem does dropout regularization solve?
+   - **Answer**: Dropout regularization is a technique used to address the problem of **overfitting** in neural networks. Overfitting occurs when a model learns the training data too well, including the noise and specific details, leading to poor performance on unseen data. By randomly deactivating a fraction of neurons during each training iteration, dropout prevents the network from relying too heavily on any single neuron or a small set of neurons. This encourages the network to learn more robust and generalizable features that are effective across different subsets of the network, ultimately improving the model's ability to generalize to new, unseen data.
+
+
 ## Reference
 - Source: [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
