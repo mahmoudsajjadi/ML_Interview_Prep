@@ -315,7 +315,7 @@ Logistic regression models are trained similarly to linear regression models, bu
 2. **Question**: What is the purpose of regularization in logistic regression?
    - **Answer**: Regularization prevents overfitting by penalizing model complexity, ensuring the model generalizes well to unseen data.
 
-# Neural Networks Module Summary
+# Neural Networks
 
 ## Key Concepts
 
@@ -392,6 +392,62 @@ Logistic regression models are trained similarly to linear regression models, bu
 3. **Question**: What problem does dropout regularization solve?
    - **Answer**: Dropout regularization is a technique used to address the problem of **overfitting** in neural networks. Overfitting occurs when a model learns the training data too well, including the noise and specific details, leading to poor performance on unseen data. By randomly deactivating a fraction of neurons during each training iteration, dropout prevents the network from relying too heavily on any single neuron or a small set of neurons. This encourages the network to learn more robust and generalizable features that are effective across different subsets of the network, ultimately improving the model's ability to generalize to new, unseen data.
 
+# Embeddings
 
+## Key Concepts
+
+### 1. **Embeddings Overview**
+   - Embeddings transform sparse, high-dimensional categorical data (e.g., one-hot encoded vectors) into dense, lower-dimensional real-valued vectors.
+   - This transformation aims to capture semantic relationships between items and significantly reduces the computational complexity for subsequent machine learning tasks.
+
+### 2. **Embedding Space**
+   - The embedding space is a multi-dimensional vector space where each item is represented by its corresponding embedding vector.
+   - The dimensions of this space are designed to encode underlying semantic properties or features of the items (e.g., for words, dimensions might implicitly represent concepts like "animacy," "abstractness," etc.).
+   - The geometric proximity (e.g., cosine similarity, Euclidean distance) between the embedding vectors of two items in this space reflects their semantic similarity.
+
+### 3. **Static Embeddings**
+   - Static embeddings assign a single, fixed embedding vector to each unique item (e.g., each word in a vocabulary).
+   - A prominent example is **word2vec**, which learns word embeddings by analyzing the local context of words in a large corpus of text.
+   - **Limitation**: Static embeddings fail to capture context-dependent meanings. For instance, the word "bank" (river bank vs. financial institution) has the same embedding regardless of its usage.
+
+### 4. **Contextual Embeddings**
+   - Contextual embeddings generate different embedding vectors for an item based on its surrounding context within a given sequence (e.g., a sentence).
+   - These embeddings can capture nuanced meanings and resolve polysemy by considering the relationships with other words in the context.
+   - Key examples include:
+     - **ELMo (Embeddings from Language Models)**: Utilizes bidirectional LSTMs to generate word embeddings that are a function of the entire input sentence. It aggregates different layers of the LSTM to capture various aspects of word meaning in context.
+     - **BERT (Bidirectional Encoder Representations from Transformers)**: Employs a transformer architecture and pre-training tasks like Masked Language Modeling and Next Sentence Prediction to learn deep contextual representations.
+     - **Transformer Models (e.g., GPT, Transformer XL)**: Architectures based on the attention mechanism, enabling the model to weigh the importance of different parts of the input sequence when generating embeddings for each item.
+
+### 5. **Obtaining Embeddings**
+   - **Dimensionality Reduction**: Techniques like Principal Component Analysis (PCA) can be applied to high-dimensional data to obtain lower-dimensional embeddings that preserve variance.
+   - **Neural Network Training**: An **embedding layer** is a common component in neural network architectures for tasks like natural language processing and recommender systems. This layer learns the embedding vectors during the supervised training process, where the embeddings are optimized to improve performance on the specific task.
+   - The dimensionality of the embedding vectors is typically chosen empirically, often based on the complexity of the data and the requirements of the downstream task.
+
+### 6. **Applications of Embeddings**
+   - **Text**: Semantic similarity analysis (e.g., finding similar documents), recommendation systems (e.g., suggesting related products based on text descriptions), machine translation, question answering.
+   - **Images/Audio**: Image classification (embedding image features), similarity detection (finding visually or acoustically similar items).
+   - Embeddings provide a more efficient and semantically rich representation of data, leading to improved model performance, reduced computational costs, and more effective storage.
+
+## Key Terms
+- **Embedding Vector**: A dense, low-dimensional vector representation of a categorical item.
+- **Embedding Space**: The multi-dimensional vector space where embedding vectors are located, with geometric relationships reflecting semantic similarities.
+- **One-hot Encoding**: A sparse, high-dimensional representation where each category is represented by a binary vector with a single '1' and the rest '0's.
+- **Static Embeddings**: Embedding vectors that are fixed for each item, regardless of the context in which they appear.
+- **Contextual Embeddings**: Embedding vectors that vary depending on the surrounding context of the item in a sequence.
+- **Embedding Layer**: A layer in a neural network that learns to map discrete input items to dense embedding vectors.
+- **BERT/ELMo**: Pre-trained deep learning models that generate high-quality contextual word embeddings.
+- **Transformer Models**: Neural network architectures based on the self-attention mechanism, highly effective for processing sequential data and generating contextual embeddings.
+
+## Exercise
+1. **Question**: What are the limitations of static embeddings?
+   - **Answer**: Static embeddings assign a single representation to each item, failing to capture variations in meaning based on the context in which the item appears. For example, a word with multiple senses will have the same embedding for all its uses.
+
+2. **Question**: How do contextual embeddings improve upon static embeddings?
+   - **Answer**: Contextual embeddings address the limitations of static embeddings by generating different representations for an item depending on its surrounding words or context. This allows them to capture nuanced meanings, resolve ambiguity (e.g., polysemy), and provide a more accurate semantic representation for downstream tasks.
+
+3. **Question**: Why might embeddings created by a neural network not be intuitively understandable?
+   - **Answer**: The dimensions in embeddings learned by neural networks are typically optimized algorithmically to capture statistical relationships that are beneficial for the specific task the network is trained on. These dimensions often represent complex and abstract semantic features that are not directly aligned with human intuition or easily named concepts. The network learns these features implicitly through the training process to maximize performance, rather than explicitly creating dimensions that correspond to human-understandable attributes.
+  
+   - 
 ## Reference
 - Source: [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
