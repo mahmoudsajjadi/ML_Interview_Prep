@@ -49,3 +49,10 @@ Welcome to **ML Interview Prep**! This repository is designed to help you prepar
 ### Projects
 - [Mini Projects](Projects/Mini_Projects.md)
 - [Portfolio Ideas](Projects/Portfolio_Ideas.md)
+
+---
+
+## Related Open-Source Curations by Mahmoud Sajjadi
+
+- [**Awesome AI Coding Tools (2026 Taxonomy & Benchmarks)**](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) — Curated 3-tier catalog of autonomous coding agents, local foundation models, MCP servers, and SWE-bench benchmarks ([Interactive VRAM Calculator](https://mahmoudsajjadi.github.io/awesome-ai-coding-tools/)).
+- [**Awesome AI Research Tools (2026)**](https://github.com/mahmoudsajjadi/awesome-ai-research-tools) — Curated directory of scientific literature discovery engines, citation synthesis graphs, LaTeX workflows, and reproducible MLOps ([Academic Stack Navigator](https://mahmoudsajjadi.github.io/awesome-ai-research-tools/)).
